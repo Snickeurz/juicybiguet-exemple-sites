@@ -21,8 +21,6 @@ Les "technologies" que l'on va employer sont les suivantes :
 
 # Zoom sur le HTML
 
-
-
 ```
 <html lang="en">
  <head>
@@ -34,12 +32,4 @@ Les "technologies" que l'on va employer sont les suivantes :
  </body>
  </html>
 ```
-
-
-
-
-
-
-
-
 
