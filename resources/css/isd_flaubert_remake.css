@@ -1,0 +1,38 @@
+
+
+/*gérer la taille des bordures*/
+
+.title {
+    font-size: 7px;
+    color:#444444;
+    font-family: sans-serif;
+
+}
+
+.padding-top {
+
+    padding: 60px 0px 0px;
+}
+
+.btn {
+    background-color: #86BA4B; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-success {
+    /*background-color:#86BA4B; font-size: 16px; font-family: Raleway, sans-serif*/
+    background-color: #86BA4B; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

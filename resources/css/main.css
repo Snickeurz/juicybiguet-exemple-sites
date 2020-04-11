@@ -1,10 +1,29 @@
 /**
     Mon premier fichier css.
  */
-
+/*Rend le fond noir*/
 .dark-background
 {
     /*This is the same as */
     /*background-color: black;*/
     background-color: #000000;
 }
+
+/*Rend le texte en blanc*/
+.white-text
+{
+    color: #ffffff;
+}
+
+.pink-background
+{
+
+    background-color: deeppink;
+}
+
+.green-background
+{
+    background-color: green;
+}
+
+style="background-color:#86BA4B; font-size: 15px; font-family: Raleway, sans-serif
