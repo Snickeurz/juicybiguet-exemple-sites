@@ -103,14 +103,24 @@
     <h2 class="text-uppercase text-jumbotron-2" >
         <strong> Chargé de communication </strong>
     </h2>
+    <!-- TODO il faut changer le nom de la classe, pas laisser nom_a_trouver -->
     <p class="nom_a_trouver" >Licence pro / BAC + 3</p>
 </div>
 
 <br>
 <div class="separator">
     <div class="layer">
+        <!--  C'est quoi cette classe list untsyled ?   -->
         <ul class=" container list-unstyled" >
-        <span><div class="row">
+        <!--  Attention, une div ne peut pas être dans une balise span.          -->
+<!--            Si tu passe ta souris sur le jaune intelliJ te previent que t'as pas le droit de les imbriquers-->
+<!--            Tu peux le faire dans ce sens par contre-->
+<!--            <div>-->
+<!--                <span></span>-->
+<!--            </div>-->
+
+            <!-- TODO Jouer avec la propriété padding pour centrer -->
+        <span><div class="row" >
             <div class="col-sm text_img">
                 <li>L’objectif de la formation est de former des <strong>chargés de communication</strong> aux compétences
                 polyvalentes afin de définir les stratégies de communication interne ou externe.
@@ -119,12 +129,14 @@
                 L’apprentissage des outils infographiques se fait en formation et en entreprise.
                 </li>
             </div>
+            <!-- TODO attention à l'indentation, du code bien structuré c'est toujours plus plaisant à lire -->
             <div class="col-sm text_img">
               <ul>
                 <li> Il réalise des produits et supports de communication écrits, visuels et audio-visuels</li>
                 <li> Il conseille et apporte un appui technique aux autres services internes à l’entreprise</li>
                 <li> Il connaît son environnement professionnel et développe un réseau de partenaires. </li>
               </ul>
+                <!--   TODO attention les balises <li> sont toujours dans les balises <ul> pas à l'exterieur      -->
                   <br>
                 <li><strong>L’assistant relation commerciale </strong> fait évoluer la relation client</li>
                 <br>
