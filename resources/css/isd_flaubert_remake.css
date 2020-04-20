@@ -46,7 +46,7 @@
 }
 
 /*selectionner nom_a_trouver puis appuyer sur ctrl+f6 (click : refactor : rename)*/
-.nom_a_trouver
+.italic_txt
 {
     text-align: center;
     font-style: italic ;
@@ -69,7 +69,8 @@
      background: url("https://www.isd-flaubert.com/wp-content/uploads/2019/03/communication.jpg") center 0 no-repeat fixed ;
      background-size: cover;
      width: 100%;
-     /*TODO pourquoi 612 px ? Tu aurais du prendre une taille de 500, c'est pas grave si ça descend pas jusqu'au bas de l'écran*/
+     /*TODO pourquoi 612 px ? Tu aurais du prendre une taille de 500, c'est pas grave si ça descend pas jusqu'au bas de l'écran
+        car sur le site quand tu inspecte c'est 612 je crois*/
      height: 612px;
      background-color: #e94952;
  }
@@ -94,7 +95,7 @@
     line-height: 28px;
 
     /*TODO a corriger*/
-    padding: auto;
+    padding: 60px 20px 20px 20px;
 }
 
 P.blocktext {
