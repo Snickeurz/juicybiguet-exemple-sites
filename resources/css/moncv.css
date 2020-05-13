@@ -19,6 +19,7 @@
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: underline;
+    color: #08605f;
 }
 
 .textformation {
@@ -29,8 +30,15 @@
     font-size: large;
 }
 
-
-.display {
-
-    display: inline-block;
+.titre2 {
+    text-align: center;
+    color: #444444;
 }
+
+/*.listealigne {*/
+
+/*    list-style: square;*/
+/*    line-height: center;*/
+/*    margin: auto;*/
+/*    text-align: justify;*/
+/*}*/
