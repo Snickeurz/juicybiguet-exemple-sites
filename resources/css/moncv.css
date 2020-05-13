@@ -1,0 +1,36 @@
+.background_color_nav{
+    background-image: linear-gradient(to bottom, silver, white);
+}
+
+.bodycolor {
+    background-color: #C0C0C0;
+}
+
+.textpresentation {
+    font-style: Italic;
+    font-family: Raleway, sans-serif;
+
+  }
+
+.titre {
+
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.textformation {
+
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+
+.display {
+
+    display: inline-block;
+}
