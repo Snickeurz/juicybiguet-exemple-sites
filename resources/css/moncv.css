@@ -81,4 +81,17 @@ html
 
 .scroll-to-top i {
     font-weight: 800;
+
+}
+
+.recherche {
+
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bold {
+
+    font-weight: bold;
 }
