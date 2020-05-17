@@ -8,12 +8,14 @@ html
 }
 
 
+
 .background_color_nav{
     background-image: linear-gradient(to bottom, silver, white);
 }
 
 .bodycolor {
-    background-color: #C0C0C0;
+    background-image: linear-gradient(to bottom, #e3f2fd, white) ;
+    background-color: #e3f2fd;
 }
 
 .textpresentation {
