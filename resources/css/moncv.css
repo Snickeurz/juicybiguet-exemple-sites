@@ -1,22 +1,48 @@
 html
 {
     scroll-behavior: smooth;
+    position: relative;
+    min-height: 100%;
+
 }
 #navbar {
 
     transition: top 1.2s; /* Transition effect when sliding down (and up) */
 }
 
-
-
-.background_color_nav{
-    background-image: linear-gradient(to bottom, silver, white);
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: #000000;
+    color: #FFFFFF;
 }
 
-.bodycolor {
-    background-image: linear-gradient(to bottom, #e3f2fd, white) ;
-    background-color: #e3f2fd;
+h5 {
+
+    font-family: "Trebuchet MS";
 }
+
+body {
+    /*background-image: linear-gradient(to bottom, #189992, white);*/
+    /*background-color: #189992;*/
+    /*    font-family: verdana,arial,helvetica,sans-serif;*/
+    /*    font-size: small;*/
+    /*    background-color: #FFFFFF;*/
+    /*    color: #000000;*/
+    /*    margin-top: 0px;*/
+    color:#333333;
+    font-family: open, sans-serif;
+    line-height:1.5em;
+    margin:0;
+    padding:13px 0;
+}
+
+/*.card-body {     background-image: linear-gradient(to bottom, #85D7E6, white) ;*/
+/*    background-color: #85D7E6; }*/
+
+/*.card-header {     background-image: linear-gradient(to bottom, white, #85D7E6); }*/
 
 .textpresentation {
     font-style: Italic;
@@ -30,12 +56,12 @@ html
     font-size: larger;
     font-weight: bold;
     text-transform: uppercase;
-    text-decoration: underline;
     color: #08605f;
 }
 
 .textformation {
 
+    font-family:georgia,"times new   roman",times,serif;
     text-align: center;
     font-style: italic;
     text-transform: uppercase;
@@ -46,19 +72,6 @@ html
 {
     color: #444444;
 }
-
-/*.listealigne {*/
-
-/*    list-style: square;*/
-/*    line-height: center;*/
-/*    margin: auto;*/
-/*    text-align: justify;*/
-/*}*/
-
-
-
-
-/*Button scroll to top*/
 
 .scroll-to-top {
     position: fixed;
@@ -175,4 +188,100 @@ html
 .single-service p {
     font-size: 15px;
     line-height: 1.8;
+}
+
+
+<!--   -->
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
 }
