@@ -31,14 +31,14 @@
     <script src="https://kit.fontawesome.com/d95978ea8c.js"></script>
 
     <link  rel="stylesheet" href="../../resources/css/moncv.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
 <!--NAVIGATION BAR -->
-<nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: white;" id="navbar">
+<nav class="navbar navbar-expand-lg navbar-light sticky-top navbar-inner " id="navbar">
     <div id="haut" class="container">
-
         <!-- LOGO - NAVBAR  -->
         <a class="navbar-brand" href="#">
             <img src="https://image.flaticon.com/icons/svg/2275/2275242.svg"
@@ -79,27 +79,37 @@
 <!--FIN NAVIGATION BAR -->
 <! -- Début Partie Présentation -->
 <br>
-<h1 id="presentation" class="titre">Présentation</h1>
+<div style="background-color: whitesmoke" class="card container">
+    <br>
+<h1 id="presentation" class="titre ">Présentation</h1>
 <hr>
 
 <div class="container">
     <div class="row">
-        <div class="col-2">
-            <img style="float: right; width:200px;height:200px" class="img-fluid px-3 " src="../../resources/img/cv.jpg"
-                alt="Photo de CV"/>
-        </div>
-        <div class="col-2">
-            <br>
-            <p class="bold"> Kévin DA SILVA</p>
-            <p class="bold"> 22 ans </p>
-            <p class="bold"> 76000 Rouen </p>
-            <p class="bold"> Permis B avec Voiture </p>
+        <div class="col-4">
+
+            <div class="cardpresentation">
+                <img style="size: auto" class="img-fluid px-3 " src="../../resources/img/cv.png"
+                     alt="Photo de CV"/>
+                <h1>Kévin DA SILVA</h1>
+                <p class="title">Passionné & Déterminé</p>
+                <p class="bold"> Kévin DA SILVA</p>
+                <p class="bold"> 22 ans </p>
+                <p class="bold"> 76000 Rouen </p>
+                <p class="bold"> Permis B avec Voiture </p>
+                <a href="#contact"><button>Contact</button></a>
+            </div>
+
         </div>
         <div class="col-7 py-4">
 
                 <h2 class="recherche"><ins> En Recherche Active d'un poste de Chargé de Communication </ins></h2>
-<br>
-               <p class="textpresentation" > Ancien étudiant en DUT Techniques de Commercialisation, je recherche un
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+               <p style="text-align: justify" class="textpresentation" > Ancien étudiant en DUT Techniques de Commercialisation, je recherche un
                    poste dans le domaine de la Communication qui puisse me permettre d'allier ce que je sais faire et
                    ce qui me passionne. Doté d'une facilité d'apprentissage et d'adaptation, je donnerais le meilleur
                    de moi-même en intégrant votre équipe.
@@ -107,8 +117,12 @@
         </div>
     </div>
 </div>
+    <br>
+</div>
+<br>
 <! -- Fin de présentation -->
 <! -- Début Formation -->
+<br>
 <div class="card container">
     <h5 id="formation" class="card-header titre">
         <img src="../../resources/img/formation.png">
@@ -150,8 +164,10 @@
         </div>
     </div>
 </div>
+<br>
 <! -- Fin de Formation -->
 <! -- Début Compétences -->
+<br>
 <div class="card container">
     <h5 id="competences" class="card-header titre">
         <img src="../../resources/img/competences.png">
@@ -262,30 +278,23 @@
         </div>
         </div>
     </div>
-
+<br>
 <! -- Fin de Compétences -->
 <! -- Début de Expériences -->
+<br>
 <div class="card container">
     <h5 id="experience" class="card-header titre">
     <img src="../../resources/img/experience.png"
          alt="Flèche d'expérience">
     Expérience
     </h5>
-    <div class="image-flip" >
-        <div class="mainflip flip-0">
-            <div class="frontside">
-                <div class="card">
-                    <div class="card-body text-center ">
-                        <h5 class="display-5 text-center">Vendeur Polyvalent</h5>
-                        <p class="textformation"> carrefour city rouen - pasteur | janvier 2019 - août 2019</p>
-                    </div>
-                </div>
-            </div>
-            <div class="backside">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row ">
-                            <div class="col">
+    <br>
+        <div class="container">
+            <div class="card danger container text-center">
+                <h5 class="card-title display-5 text-center">Vendeur Polyvalent</h5>
+                <p class="card-text textformation"> carrefour city rouen - pasteur | janvier 2019 - août 2019</p>
+                    <div class="row ">
+                        <div class="col">
                                 <p>• Accueil, Conseil Client, Vente et Fidélisation Clientèle</p>
                                 <p>• Implantation d'un produit dans le magasin</p>
                             </div>
@@ -293,47 +302,49 @@
                                 <p>• Facing & merchandising</p>
                                 <p>• Gestion d'une caisse</p>
                             </div>
+
                             <div class="col">
                                 <p>• Entretien des locaux</p>
                                 <p>• Mise en place des OAV</p>
                             </div>
+                    </div>
+            </div>
+
+        <br>
+            <div class=" card info">
+                    <h5 class="display-5 text-center">Conseiller vendeur</h5>
+                    <p class="textformation">eismann pacy | decembre 2018 - janvier 2019</p>
+                    <div class="row text-center">
+                        <div class="col">
+                            <p>• Prospection porte à porte / Téléprospection</p>
+                        </div>
+                        <div class="col">
+                            <p>• Prise de commande</p>
+                        </div>
+                        <div class="col">
+                            <p>• Livraison + Vente direct</p>
                         </div>
                     </div>
+            </div>
+        <br>
+            <div class="card success">
+                    <h5 class="display-5 text-center">Projets personnels</h5>
+                    <p class="textformation"> 2017 - 2018 </p>
+                    <p class="text-center">• Diverses missions intérimaires (Manutention, Inventoriste, Déchargement)</p>
+                    <p class="text-center">• Voyages</p>
+                    <p class="text-center">• Conception de projets entrepreneuriaux :</p>
+                    <br>
+                    <p class="text-center">Business Plan (PESTEL, CANVAS, SWOT)</p>
+                    <p class="text-center"> Dossier Marketing (Influenceurs, SEO, Marketing Mix)</p>
+                    <p class="text-center"> Elaboration de stratégies de communication (Site, E-mailing, Choix des Médias)</p>
+            </div>
                 </div>
+    <br>
             </div>
-        </div>
-    </div>
-        <br>
-        <h5 class="display-5 text-center">Conseiller vendeur</h5>
-        <p class="textformation">eismann pacy | decembre 2018 - janvier 2019</p>
-        <div class="row text-center">
-            <div class="col">
-                <p>• Prospection porte à porte / Téléprospection</p>
-            </div>
-            <div class="col">
-                <p>• Prise de commande</p>
-            </div>
-            <div class="col">
-                <p>• Livraison + Vente direct</p>
-            </div>
-        </div>
-        <br>
-        <h5 class="display-5 text-center">Projets personnels</h5>
-        <p class="textformation"> 2017 - 2018 </p>
-        <p class="text-center">• Diverses missions intérimaires (Manutention, Inventoriste, Déchargement)</p>
-        <p class="text-center">• Voyages</p>
-        <p class="text-center">• Conception de projets entrepreneuriaux :</p>
-        <br>
-        <p class="text-center">Business Plan (PESTEL, CANVAS, SWOT)</p>
-        <p class="text-center"> Dossier Marketing (Influenceurs, SEO, Marketing Mix)</p>
-        <p class="text-center"> Elaboration de stratégies de communication (Site, E-mailing, Choix des Médias)</p>
-    </div>
-</div>
-    </div>
-</div>
-
+<br>
 <! -- Fin de Expérience -->
 <! -- Début Centres d'intérêt -->
+<br>
 <div class="card container">
     <h5 id="centre_d_interet" class="card-header titre">
         <img src="../../resources/img/centredinteret.png">

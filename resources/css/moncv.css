@@ -9,6 +9,9 @@ html
 
     transition: top 1.2s; /* Transition effect when sliding down (and up) */
 }
+.navbar-inner {
+    background-color:transparent;
+}
 
 .footer {
     position: absolute;
@@ -25,8 +28,8 @@ h5 {
 }
 
 body {
-    /*background-image: linear-gradient(to bottom, #189992, white);*/
-    /*background-color: #189992;*/
+    background-image: linear-gradient(to bottom, #189992, white);
+    background-color: #189992;
     /*    font-family: verdana,arial,helvetica,sans-serif;*/
     /*    font-size: small;*/
     /*    background-color: #FFFFFF;*/
@@ -39,10 +42,57 @@ body {
     padding:13px 0;
 }
 
-/*.card-body {     background-image: linear-gradient(to bottom, #85D7E6, white) ;*/
-/*    background-color: #85D7E6; }*/
+.cardpresentation {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
 
-/*.card-header {     background-image: linear-gradient(to bottom, white, #85D7E6); }*/
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+.success {
+    background-color: #a6f0ff;
+    border-left: 6px solid #8BC0E8;
+}
+
+.info {
+    background-color: #99FFD8;
+    border-left: 6px solid #8BC0E8;
+}
+
+.danger {
+    background-color: #8BE8DE;
+    border-left: 6px solid #8BC0E8;
+}
+
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
 
 .textpresentation {
     font-style: Italic;
@@ -192,6 +242,11 @@ body {
 
 
 <!--   -->
+
+.card-image{
+    height: 300px; //or however you want it
+width:auto; //so that the image ratio stays the same
+}
 
 .image-flip:hover .backside,
 .image-flip.hover .backside {
