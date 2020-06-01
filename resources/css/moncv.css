@@ -92,7 +92,7 @@ body {
     /*    color: #000000;*/
     /*    margin-top: 0px;*/
     color:#333333;
-    font-family: open, sans-serif;
+    font-family: "Trebuchet MS";
     line-height:1.5em;
     margin:0;
     padding:13px 0;
@@ -111,7 +111,7 @@ body {
 
 .textpresentation {
     font-style: Italic;
-    font-family: Raleway, sans-serif;
+    font-family: "Trebuchet MS";
 
 }
 
@@ -126,7 +126,7 @@ body {
 
 .textformation {
 
-    font-family:georgia,"times new   roman",times,serif;
+    font-family:"Trebuchet MS";
     text-align: center;
     font-style: italic;
     text-transform: uppercase;
@@ -141,7 +141,7 @@ body {
 
 .textcard{
 
-    font-family:Raleway, sans-serif;
+    font-family:"Trebuchet MS";
     font-style: italic;
     text-transform: uppercase;
     font-size: large;
@@ -168,18 +168,7 @@ border-color: #44acac;
 .dot1 {
     background-color:#44acac
 }
-.timelinecolor2 {
-    border-color: #57b5b0;
-}
-.dot2 {
-    background-color:#57b5b0 ;
-}
-.timelinecolor3 {
-    border-color: #6cbcbb;
-}
-.dot3 {
-    background-color:#6cbcbb
-}
+
 /*<!-- Navbar   -->*/
 
 .bouton:hover, a:hover {
