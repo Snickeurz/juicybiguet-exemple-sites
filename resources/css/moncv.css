@@ -11,7 +11,7 @@
     -webkit-transition: .3s;
     transition: .3s;
     padding: 30px 20px;
-    margin-right: 60px;
+    margin-right: 0px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.16)
 }
 .single-service:before {
@@ -115,10 +115,12 @@ body {
 
 }
 
+
+
 .titre {
 
     text-align: center;
-    font-size: larger;
+    font-size: x-large;
     font-weight: bold;
     text-transform: uppercase;
     color: #08605f;
@@ -253,12 +255,11 @@ a {
 }
 
 .card {
-
     border-radius: 20px !important;
 }
 
 .button {
-    background-color: #08605f; /* Green */
+    background-color: #08605f;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -267,3 +268,20 @@ a {
     font-size: 16px;
 }
 
+.button:hover
+{
+    background-color: #668989; / Green */
+    color: #000000;
+    font-size: 16px;
+}
+
+a
+{
+    text-decoration: none !important;
+}
+
+h5 {
+
+    font-weight: bold;
+
+}
